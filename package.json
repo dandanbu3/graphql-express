@@ -1,0 +1,27 @@
+{
+  "name": "graph-pc",
+  "version": "1.0.0",
+  "description": "graph WEB",
+  "author": "rocky",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
